@@ -48,6 +48,19 @@ fn main() -> Result<(), Unspecified> {
             password.as_bytes(),
             &store_hash,
         );
-
+            
+        let wrong_password = "Who the dogs out ?";
+        let verify_wrong = pbkdf2::verify(
+            pbkdf2::PBKDF2_HMAC_SHA512,
+            n_iter,
+            &salt,
+            wrong_password.as_bytes(),
+            &store_hash,
+        );
+    
+        assert!(verify_hash.is_ok());
+        assert!(!verify_wrong.is_ok());
+    
+        Ok(())
 
 }
