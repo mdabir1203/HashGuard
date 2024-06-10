@@ -39,6 +39,15 @@ fn main() -> Result<(), Unspecified> {
     println!("Salt: {}", HEXUPPER.encode(&salt));
     println!("Stored Hash: {}", HEXUPPER.encode(&store_hash));
 
+        // Verification 
+
+        let verify_hash = pbkdf2::verify(
+            pbkdf2::PBKDF2_HMAC_SHA512,
+            n_iter,
+            &salt,
+            password.as_bytes(),
+            &store_hash,
+        );
 
 
 }
