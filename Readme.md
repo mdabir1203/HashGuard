@@ -10,3 +10,14 @@ Password hashing is the process of transforming a plain text password into a sec
 **Security:** Protects passwords from being easily deciphered if the data is breached.
 **Salting:** Adds an additional layer of security by appending a random string to the password before hashing.
 **Iteration Count:** Increases the complexity and time required to brute-force the hash.
+
+
+### Question for Thought 
+
+1. How to securely hash a password?
+
+2. How to verify a password against a stored hash?
+
+3. How to handle random number generation securely?
+
+4. How to ensure non-zero iteration count?
