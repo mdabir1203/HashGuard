@@ -15,9 +15,16 @@ Password hashing is the process of transforming a plain text password into a sec
 ### Question for Thought 
 
 1. How to securely hash a password?
-
 2. How to verify a password against a stored hash?
-
 3. How to handle random number generation securely?
-
 4. How to ensure non-zero iteration count?
+5. What is the purpose of the HEXUPPER encoding in this code?
+6. How does the SystemRandom function ensure secure random number generation?
+7. How does the pbkdf2::derive function work to create a hashed password?
+8. What is the purpose of the validate_password function?
+9. Why is it checking for a password length of less than 2?
+10. How does the pbkdf2::verify function verify the hashed password?
+11. Why is the Unspecified error from the ring crate used in this code?
+12. What would happen if the unwrap() function encounters an error during execution?
+13. Why is the salt generated with a length equal to SHA512_OUTPUT_LEN?
+14. What is the purpose of the commented out code related to wrong_password and its verification?

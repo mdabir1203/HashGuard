@@ -74,6 +74,7 @@ fn main() -> Result<(), Unspecified> {
 
 }
 
+// Return an Err variant of the Result type -> containing Unspectified error from ring crate
 fn validate_password(password: &str) -> Result<(), ring::error::Unspecified>  {
     if password.len() < 2 {
         Err(ring::error::Unspecified)
