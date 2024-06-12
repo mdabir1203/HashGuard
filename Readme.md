@@ -8,7 +8,9 @@ Password hashing is the process of transforming a plain text password into a sec
 ## Key reasons for password hashing:
 
 **Security:** Protects passwords from being easily deciphered if the data is breached.
+
 **Salting:** Adds an additional layer of security by appending a random string to the password before hashing.
+
 **Iteration Count:** Increases the complexity and time required to brute-force the hash.
 
 
