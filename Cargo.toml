@@ -6,3 +6,4 @@ edition = "2021"
 [dependencies]
 ring = "0.17.8" 
 data-encoding = "2.6.0"
+rpassword = "5.0.1"
