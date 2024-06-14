@@ -14,6 +14,10 @@ Password hashing is the process of transforming a plain text password into a sec
 **Iteration Count:** Increases the complexity and time required to brute-force the hash.
 
 
+## Demo 
+
+https://github.com/mdabir1203/Hash_Rust/assets/66947064/4b96e439-be18-4bca-82a6-e9625e734aba
+
 ### Question for Thought 
 
 1. How to securely hash a password?
