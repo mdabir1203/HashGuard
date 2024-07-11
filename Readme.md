@@ -1,4 +1,7 @@
 # Ultimate Guide to Secure password hashing in Rust
+
+![a-conceptual-sketch-of-a-secure-guard-typography-d-elOt_btFRVCo884cdGnLWw-UPn296DhQTSz6Lar9G87fw](https://github.com/mdabir1203/HashGuard/assets/66947064/0de0412e-0a89-4284-aee9-bd5047aea88f)
+
 ## Introduction
 Ensuring the security of user passwords is paramount importance in today's digital world. One of the most effective methods for securing passwords is through hashing, specifically using the PBKDF2 (Password-Based Key Derivation Function 2) algorithm. In this comprehensive guide, we'll dive into secure password hashing and verification using Rust and PBKDF2, making security easier for developers of all levels to understand and implement.
 
